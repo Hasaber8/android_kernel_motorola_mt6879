@@ -308,16 +308,6 @@
 };
 
 
-&charge_leds {
-	compatible = "gpio-leds";
-
-	charging {
-		label = "charging";
-		gpios = <&pio 163 0x0>;
-		default-state = "off";
-	};
-};
-
 &charger_cooler {
 	mmi,thermal-mitigation = <(-1) 5000000 4000000 3000000 2500000
 				2000000 1600000 800000 500000>;
@@ -409,4 +399,3 @@
 	};
 
 };
-

@@ -148,12 +148,6 @@
 		status="okay";
 	};
 
-
-	charge_led {
-		label = "red";
-		led_mode = <2>;
-		gpio_config = <163>;
-	};
 };
 
 &tboard_thermistor4 {
